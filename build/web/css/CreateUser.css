@@ -1,0 +1,150 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17 oct. 2024, 11:47:54
+    Author     : HP
+*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+    --color-negro: #000000;
+    --color-blanco: #ffffff;
+    --color-morado-pastel: #dfd2f5;
+    --color-morado-tono2:#6a2be7;
+    --color-morado-tono3:#ac90e4;
+    --fuente-principal: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--fuente-principal);
+    background-color: var(--color-morado-tono3);
+}
+
+.signupFrm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    background-color: var(--color-blanco);
+    width: 400px;
+    border-radius: 8px;
+    padding: 40px 20px 40px 45px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+.title {
+    font-size: 25px;
+    margin-right: 26px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.inputContainer {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+}
+
+.input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid var(--color-morado-tono2);
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+}
+
+::placeholder {
+    color: transparent;
+}
+
+.label {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: white;
+    color: #DADCE0;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+}
+
+.input:focus+.label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-morado-tono2);
+}
+
+.input:focus {
+    border: 2px solid var(--color-morado-tono2);
+}
+
+.input:not(:placeholder-shown)+.label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px; 
+}
+
+.submitBtn {
+    padding: 10px 15px;
+    border: none;
+    background-color: var(--color-morado-tono2);
+    color: var(--color-blanco);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 35px; /* Espacio de 20px entre los botones */
+}
+
+.submitBtn:hover {
+    background-color: var(--color-morado-tono3);
+    transform: translateY(-2px);
+}
+
+.regresoBtn {
+    padding: 10px 15px; 
+    border: none;
+    background-color: var(--color-morado-tono2);
+    color: var(--color-blanco);
+    border-radius: 6px; 
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.regresoBtn:hover {
+    background-color: var(--color-morado-tono3);
+    transform: translateY(-2px);
+}
+
+

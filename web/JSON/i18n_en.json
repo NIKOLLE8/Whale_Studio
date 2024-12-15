@@ -1,0 +1,149 @@
+{
+    "main": {
+        "title": "Reflect your talent in our studios",
+        "description": "✨Designed for you to be yourself and shine with your own light✨",
+        "button": "Make your reservation now!"
+    },
+    "rooms": {
+        "salonGroup": {
+            "title": "Our Studios",
+            "heading": "Salon Group",
+            "description": "Perfect for individual practices or small groups of 1 to 6 people. Equipped with full-length mirrors, basic sound system, and professional lighting."
+        },
+        "salonCrew": {
+            "heading": "Salon Crew",
+            "description": "Ideal for groups of 6 to 13 people and professional recordings. Includes advanced sound system, professional lighting, and cameras for recording your rehearsals."
+        },
+        "detailsButton": "View Studio Details"
+    },
+    "schedule": {
+        "restTitle": "Rest",
+        "restDays": "Monday and Tuesday",
+        "restDescription": "No public service",
+        "reservationTitle": "Reservation Hours",
+        "attentionTitle": "Service Hours",
+        "attentionDays": "Wednesday to Sunday",
+        "attentionHours": "10:00 AM - 6:00 PM"
+    },
+    "reasons": {
+        "title": "Why choose our mirror studios?",
+        "mirrorQuality": {
+            "title": "High-Quality Mirrors",
+            "description": "Perfect vision to perfect your movements"
+        },
+        "soundQuality": {
+            "title": "Professional Sound",
+            "description": "Exceptional acoustics for your music"
+        },
+        "lighting": {
+            "title": "Adjustable Lighting",
+            "description": "Create the perfect atmosphere for your performance"
+        },
+        "space": {
+            "title": "Spacious Rooms",
+            "description": "Spacious and well-ventilated studios"
+        }
+    },
+    "imagenPrincipal": {
+        "title": "REFLECTING DREAMS"
+    },
+    "historia": {
+        "title": "✨ Our Story ✨",
+        "inicios": {
+            "title": "Our Beginnings",
+            "description": "Founded in 2010 by a group of visionary artists, Whale Studio was born out of a passion to create spaces that challenge perception and stimulate the imagination."
+        },
+        "evolucion": {
+            "title": "Evolution",
+            "description": "Over the years, we have perfected the art of reflection, blending traditional techniques with cutting-edge technologies to create truly unique experiences."
+        },
+        "innovacion": {
+            "title": "Constant Innovation",
+            "description": "Our commitment to innovation has led us to develop more special mirrors, high-quality designs for different occasions, and new environments for customer comfort."
+        }
+    },
+    "valores": {
+        "title": "Our Values",
+        "creatividad": {
+            "icon": "🎨",
+            "title": "Creativity",
+            "description": "We constantly seek new forms of expression and innovation in our designs."
+        },
+        "colaboracion": {
+            "icon": "🤝",
+            "title": "Collaboration",
+            "description": "We work closely with our clients to bring their unique visions to life."
+        },
+        "excelencia": {
+            "icon": "🌟",
+            "title": "Excellence",
+            "description": "We are committed to delivering the highest quality in every project we undertake."
+        },
+        "sostenibilidad": {
+            "icon": "🌱",
+            "title": "Sustainability",
+            "description": "We seek eco-friendly solutions in our processes and materials."
+        }
+    },
+    "objetivo": {
+        "title": "✨ Our Goal ✨",
+        "text": {
+            "p1": "At Whale Studio, our goal is to revolutionize the way people interact with the spaces they inhabit. We strive to create environments that not only reflect physical beauty but also inspire inner reflection and the expansion of consciousness.",
+            "p2": "Our commitment is to provide innovative solutions that not only decorate but also stimulate the imagination."
+        },
+        "quote": "\"In every reflection, a new perspective; in every mirror, a world of possibilities.\"",
+        "image": "../Imagenes/bts.png"
+    },
+    "localizarnos": {
+        "title": "✨ Find Us ✨",
+        "mapa": {
+            "iframeSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.7479996183318!2d-3.7037974842737146!3d40.41694076332312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2sPuerta%20del%20Sol%2C%20Madrid%2C%20Spain!5e0!3m2!1sen!2sus!4v1620160114569!5m2!1sen!2sus",
+            "address": "Av. José Pardo 610, 2nd floor, Miraflores",
+            "hours": "Wednesday to Sunday from 10:00 AM to 6:00 PM."
+        }
+    },
+    "terminosYCondiciones": {
+        "titulo": "TERMS AND CONDITIONS",
+        "secciones": [
+            {
+                "titulo1": "1. Acceptance of Terms",
+                "contenido1": "By making a reservation at our facilities, you confirm that you have read, understood, and accepted all the terms and conditions outlined here. If you disagree with any of them, we kindly ask you not to proceed with the reservation."
+            },
+            {
+                "titulo2": "2. Reservation",
+                "contenido2": "Upon completing the reservation, we will store your contact details. One day before the scheduled date and time, we will send you a confirmation message. If we do not receive your response up to 2 hours before the scheduled time, we reserve the right to cancel the service and release the room."
+            },
+            {
+                "titulo3": "3. Schedule and Tolerance",
+                "contenido3": [
+                    "A tolerance period of 10 minutes is offered after the agreed time for entry. If you do not arrive within that time, the room will be released, and the reservation will be considered lost.",
+                    "We recommend arriving at least 5 minutes before the scheduled time to receive the keys and the speaker controls for the mirror room."
+                ]
+            },
+            {
+                "titulo4": "4. Use of Facilities",
+                "contenido4": [
+                    "Food and alcohol consumption are not allowed inside the rooms. Any violation of this rule may result in the cancellation of the reservation without a refund.",
+                    "The tenant is responsible for the proper use of the facilities and must notify any damage or inconvenience during the use of the room."
+                ]
+            },
+            {
+                "titulo5": "5. Payment",
+                "contenido5": [
+                    "The full payment must be made before entering the room and must be done by the person who made the reservation. Third-party payments will not be accepted.",
+                    "No refunds will be made for issues not involving the premises or service."
+                ]
+            },
+            {
+                "titulo6": "6. Behavior",
+                "contenido6": [
+                    "It is expected that all tenants and their guests maintain respectful and professional behavior while using the facilities. Additionally, they are responsible for the loss of their personal belongings.",
+                    "We reserve the right to cancel the reservation without a refund if inappropriate behavior occurs."
+                ]
+            },
+            {
+                "mensajeFinal": "✨Thank you for choosing us! We hope you enjoy your reservation✨"
+            }
+        ]
+    }
+}

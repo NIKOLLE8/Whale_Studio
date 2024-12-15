@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="icon" href="#{resource['Imagenes/logo_pagina.png']}"/>
+        <title>Whale Studio</title>
+
+        <!-- Enlaces a Bootstrap y Font Awesome -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+
+        <!-- Archivos CSS locales -->
+        <h:outputStylesheet name="css/salas.css"/>
+        <h:outputStylesheet name="css/header_footer.css" />
+    </h:head>
+    <h:body>
+        <h:form> <!-- Agregar el formulario que debe envolver el enlace -->
+
+            <header class="header-nav">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary contenedor-nav">
+                    <div class="container-fluid nav">
+                        <h:link class="navbar-brand logo" outcome="index.xhtml">
+                            <h:graphicImage name="Imagenes/logonav.png" alt="Logo" />
+                        </h:link>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <h:selectOneMenu class="select-idioma" value="#{usuarioBean.localidad}" onchange="submit()" valueChangeListener="#{usuarioBean.localidadChanged}">
+                                        <f:selectItems value="#{usuarioBean.lstPaises}" />
+                                    </h:selectOneMenu>
+                                </li>
+                                <li class="nav-item">
+                                    <h:link class="nav-link" outcome="vista/Nosotros.xhtml">#{txt.navbar_nosotros}</h:link>
+                                </li>
+                                <li class="nav-item">
+                                    <h:link class="nav-link" outcome="Salas.xhtml">#{txt.navbar_salones}</h:link>
+                                </li>
+                                <li class="nav-item">
+                                    <h:link class="nav-link" outcome="ControladorDistribucion?accion=reserva">#{txt.navbar_reservas}</h:link>
+                                </li>
+                                <li class="nav-item">
+                                    <h:link class="nav-link" outcome="vista/Politicas.xhtml">#{txt.navbar_politicas}</h:link>
+                                </li>
+                            </ul>
+                            <h:link class="user-icon" outcome="ControladorDistribucion?accion=login">
+                                <i class="fas fa-user"></i>
+                            </h:link>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+
+            <main>
+                <!-- Sección con la imagen -->
+                <div class="imagen">
+                    <div class="imagen-content">
+                        <!-- Aquí puedes agregar una imagen o cualquier contenido adicional -->
+                    </div>
+                </div>
+
+                <!-- Sección de Salones -->
+                <section>
+                    <div class="container">
+                        <h2 class="section-title"> ✨ <h:outputText value="#{txt.salonGroupTitle}" /> ✨</h2>
+                        <div class="salones">
+                            <!-- Salón Group -->
+                            <div class="salon" id="salon-group">
+                                <h2><h:outputText value="#{txt.salonGroupTitle}" /></h2>
+                                <p class="salon-p"><h:outputText value="#{txt.salonGroupDescription}" /></p>
+                                <ul class="features">
+                                    <li><h:outputText value="#{txt.mirrorFeature}" /></li>
+                                    <li><h:outputText value="#{txt.soundSystemFeature}" /></li>
+                                    <li><h:outputText value="#{txt.lightingFeature}" /></li>
+                                    <li><h:outputText value="#{txt.floorFeature}" /></li>
+                                    <li><h:outputText value="#{txt.acFeature}" /></li>
+                                </ul>
+                                <div class="precio-container">
+                                    <div class="precio">
+                                        <h:outputText value="#{txt.pricePerHourGroup}" />
+                                    </div>
+                                    <p><h:outputText value="#{txt.maxPeopleGroup}" /></p>
+                                </div>
+                            </div>
+
+                            <!-- Salón Crew -->
+                            <div class="salon" id="salon-crew">
+                                <h2><h:outputText value="#{txt.salonCrewTitle}" /></h2>
+                                <p class="salon-p"><h:outputText value="#{txt.salonCrewDescription}" /></p>
+                                <ul class="features">
+                                    <li><h:outputText value="#{txt.advancedSoundSystemFeature}" /></li>
+                                    <li><h:outputText value="#{txt.lightingFeature}" /></li>
+                                    <li><h:outputText value="#{txt.recordingCamerasFeature}" /></li>
+                                    <li><h:outputText value="#{txt.dressingRoomsFeature}" /></li>
+                                    <li><h:outputText value="#{txt.restAreaFeature}" /></li>
+                                </ul>
+                                <div class="precio-container">
+                                    <div class="precio">
+                                        <h:outputText value="#{txt.pricePerHourCrew}" />
+                                    </div>
+                                    <p><h:outputText value="#{txt.maxPeopleCrew}" /></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Sección de Precios Especiales -->
+                <section>
+                    <h2 class="section-title"> ✨ <h:outputText value="#{txt.specialPrices}" /> ✨</h2>
+
+                    <div class="special-offers">
+                        <div class="offers-grid">
+                            <!-- Paquete Cumpleaños -->
+                            <div class="offer-card">
+                                <div class="offer-icon">🎂</div>
+                                <h3><h:outputText value="#{txt.birthdayPackageTitle}" /></h3>
+                                <p style="margin: 1rem 0;">
+                                    <h:outputText value="#{txt.birthdayPackageDetails}" />
+                                </p>
+                                <p><strong><h:outputText value="#{txt.dontMissThisOpportunity}" /></strong></p>
+                            </div>
+
+                            <!-- Paquete Ensayo Grupal -->
+                            <div class="offer-card">
+                                <div class="offer-icon">👯</div>
+                                <h3><h:outputText value="#{txt.groupRehearsalPackageTitle}" /></h3>
+                                <p style="margin: 1rem 0;">
+                                    <h:outputText value="#{txt.groupRehearsalPackageDetails}" />
+                                </p>
+                                <p><strong><h:outputText value="#{txt.practiceMadeEasy}" /></strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Sección de Reviews -->
+                <section>
+                    <h2 class="section-title"> ✨ <h:outputText value="#{txt.reviewsTitle}" /> ✨</h2>
+
+                    <div class="reviews">
+                        <!-- Review de Sophia García -->
+                        <div class="review">
+                            <div class="review-header">
+                                <div class="review-avatar">👧</div>
+                                <div>
+                                    <h3><h:outputText value="#{txt.sophiaName}" /></h3>
+                                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                            <p><h:outputText value="#{txt.sophiaReview}" /></p>
+                        </div>
+
+                        <!-- Review de Dance Crew Stars -->
+                        <div class="review">
+                            <div class="review-header">
+                                <div class="review-avatar">🎭</div>
+                                <div>
+                                    <h3><h:outputText value="#{txt.danceCrewName}" /></h3>
+                                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                            <p><h:outputText value="#{txt.danceCrewReview}" /></p>
+                        </div>
+
+                        <!-- Review de Carlos Mendoza -->
+                        <div class="review">
+                            <div class="review-header">
+                                <div class="review-avatar">👨‍🎤</div>
+                                <div>
+                                    <h3><h:outputText value="#{txt.carlosName}" /></h3>
+                                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                            <p><h:outputText value="#{txt.carlosReview}" /></p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Sección de Galería de Imágenes -->
+                <section>
+                    <div class="galeria">
+                        <div class="galeria-item">
+                            <h:graphicImage name="Imagenes/salas1.jpg" alt="Salón Group" />
+                        </div>
+                        <div class="galeria-item">
+                            <h:graphicImage name="Imagenes/salas2.jpg" alt="Salón Crew" />
+                        </div>
+                        <div class="galeria-item">
+                            <h:graphicImage name="Imagenes/salas3.jpg" alt="Celebración" />
+                        </div>
+                        <div class="galeria-item">
+                            <h:graphicImage name="Imagenes/salas4.jpg" alt="Ensayo" />
+                        </div>
+                    </div>
+
+                    <div class="galeria">
+                        <div class="galeria-item">
+                            <h:graphicImage name="Imagenes/salas5.jpg" alt="Salón Group" />
+                        </div>
+                        <div class="galeria-item">
+                            <h:graphicImage name="Imagenes/salas6.jpg" alt="Salón Crew" />
+                        </div>
+                        <div class="galeria-item">
+                            <h:graphicImage name="Imagenes/salas7.jpg" alt="Celebración" />
+                        </div>
+                        <div class="galeria-item">
+                            <h:graphicImage name="Imagenes/salas8.jpg" alt="Ensayo" />
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+
+            <footer class="text-center py-3">
+                <p>
+                    <i class="fas fa-map-marker-alt icon"></i> #{txt.direccion}
+                    <span class="divider d-none d-sm-inline">|</span>
+                    <br class="d-sm-none" />
+                    <i class="fas fa-phone-alt icon"></i> #{txt.telefono}
+                    <span class="divider d-none d-sm-inline">|</span>
+                    <br class="d-sm-none" />
+                    <i class="fas fa-envelope icon"></i> #{txt.email}
+                </p>
+                <p>#{txt.copyright}</p>
+            </footer>
+        </h:form> 
+    </h:body>
+</html>

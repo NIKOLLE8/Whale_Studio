@@ -1,0 +1,184 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15 oct. 2024, 23:47:40
+    Author     : HP
+*/
+
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+:root {
+    --color-negro: #000000;
+    --color-blanco: #ffffff;
+    --color-morado-pastel: #dfd2f5;
+    --color-morado-tono2:#5e17eb;
+    --color-morado-tono3:#ac90e4;
+
+    --fuente-principal: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--fuente-principal);
+}
+
+.EspacioFormularios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 30px;
+}
+
+/*Formulario de reserva*/
+.containerform {
+    width: 390px; 
+    background-color: var(--color-morado-pastel);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.1);
+}
+
+.tittle h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--color-morado-tono2);
+}
+
+.form-section {
+    background-color: var(--color-blanco);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.form-section:hover {
+    transform: translateY(-5px);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--color-morado-tono2);
+    font-weight: bold;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid var(--color-morado-tono2);
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+};
+
+.select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid var(--color-morado-tono2);
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="submit"], input[type="button"]{
+    background-color: var(--color-morado-tono2);
+    color: white;
+    padding: 12px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--color-morado-tono3);
+    color: var(--color-negro);
+}
+
+input[type="button"]:hover{
+    background-color: var(--color-morado-tono3);
+}
+
+
+/*Salas*/
+.containersalas {
+    width: 800px; 
+    padding: 0x 20px 5px 20px ;
+    border-radius: 8px;
+}
+
+.sala-layout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    cursor: pointer;
+    padding: 30px 30px 30px 30px;
+    border-radius: 8px;
+    background-color: var(--color-morado-pastel);
+}
+
+.sala {
+    aspect-ratio: 0.58;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 8px;
+    background-color: var(--color-blanco);
+    cursor: pointer; 
+}
+.sala:hover {
+    background-color: var(--color-morado-tono3);
+}
+
+.seleccionada {
+    background-color: #d4edda; /* Color de la sala seleccionada */
+    pointer-events: none; /* No se puede seleccionar */
+}
+
+.ocupada {
+    background-color: #e74c3c; /* Color de sala ocupada */
+    pointer-events: none; /* No se puede seleccionar */
+}
+
+.recepcion {
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color:var(--color-negro);
+    background-color: var(--color-morado-tono3);
+    border-radius: 8px;
+}
+
+.legenda {
+    display: flex;
+    justify-content: center;
+    gap: 95px ;
+}
+.legenda-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 15px
+}
+.legenda-border {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #6c757d;
+    border-radius: 4px;
+}

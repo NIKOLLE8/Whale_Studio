@@ -1,0 +1,149 @@
+{
+    "main": {
+        "title": "Refleja tu talento en nuestras salas",
+        "description": "✨Diseñados para que puedas ser tú mismo y brillar con luz propia✨",
+        "button": "¡Haz tu reserva ahora!"
+    },
+    "rooms": {
+        "salonGroup": {
+            "title": "Nuestros Salones",
+            "heading": "Salón Group",
+            "description": "Perfecto para prácticas individuales o en pequeños grupos entre 1 a 6 personas."
+        },
+        "salonCrew": {
+            "heading": "Salón Crew",
+            "description": "Ideal para grupos entre 6 a 13 personas y grabaciones profesionales."
+        },
+        "detailsButton": "Ver Detalles de Salones"
+    },
+    "schedule": {
+        "restTitle": "Descanso",
+        "restDays": "Lunes y Martes",
+        "restDescription": "Sin Atención al Público",
+        "reservationTitle": "Horarios de Reservación",
+        "attentionTitle": "Atención",
+        "attentionDays": "Miércoles a Domingos",
+        "attentionHours": "10:00 AM - 18:00 PM"
+    },
+    "reasons": {
+        "title": "¿Por qué elegir nuestras salas de espejos?",
+        "mirrorQuality": {
+            "title": "Espejos de Alta Calidad",
+            "description": "Visión perfecta para perfeccionar tus movimientos"
+        },
+        "soundQuality": {
+            "title": "Sonido Profesional",
+            "description": "Acústica excepcional para tu música"
+        },
+        "lighting": {
+            "title": "Iluminación Ajustable",
+            "description": "Crea el ambiente perfecto para tu actuación"
+        },
+        "space": {
+            "title": "Espacios Amplios",
+            "description": "Salas espaciosas y bien ventiladas"
+        }
+    },
+    "imagenPrincipal": {
+        "title": "REFLEJANDO SUEÑOS"
+    },
+    "historia": {
+        "title": "✨ Nuestra Historia ✨",
+        "inicios": {
+            "title": "Nuestros Inicios",
+            "description": "Fundada en 2010 por un grupo de artistas visionarios, Whale Studio nació de la pasión por crear espacios que desafían la percepción y estimulan la imaginación."
+        },
+        "evolucion": {
+            "title": "Evolución",
+            "description": "A lo largo de los años, hemos perfeccionado el arte de la reflexión, fusionando técnicas tradicionales con tecnologías de vanguardia para crear experiencias verdaderamente únicas."
+        },
+        "innovacion": {
+            "title": "Innovación Constante",
+            "description": "Nuestro compromiso con la innovación nos ha llevado a desarrollar espejos más especiales, diseños de alta calidad para diferentes ocasiones y nuevos ambientes para la comodidad de los clientes."
+        }
+    },
+    "valores": {
+        "title": "Nuestros Valores",
+        "creatividad": {
+            "icon": "🎨",
+            "title": "Creatividad",
+            "description": "Buscamos constantemente nuevas formas de expresión y innovación en nuestros diseños."
+        },
+        "colaboracion": {
+            "icon": "🤝",
+            "title": "Colaboración",
+            "description": "Trabajamos estrechamente con nuestros clientes para dar vida a sus visiones únicas."
+        },
+        "excelencia": {
+            "icon": "🌟",
+            "title": "Excelencia",
+            "description": "Nos comprometemos a ofrecer la más alta calidad en cada proyecto que emprendemos."
+        },
+        "sostenibilidad": {
+            "icon": "🌱",
+            "title": "Sostenibilidad",
+            "description": "Buscamos soluciones eco-amigables en nuestros procesos y materiales."
+        }
+    },
+    "objetivo": {
+        "title": "✨ Nuestro Objetivo ✨",
+        "text": {
+            "p1": "En Whale Studio, nuestro objetivo es revolucionar la forma en que las personas interactúan con los espacios que habitan. Nos esforzamos por crear ambientes que no solo reflejen la belleza física, sino que también inspiren la reflexión interior y la expansión de la conciencia.",
+            "p2": "Nuestro compromiso es proporcionar soluciones innovadoras que no solo decoren, sino que también estimulen la imaginación."
+        },
+        "quote": "\"En cada reflejo, una nueva perspectiva; en cada espejo, un mundo de posibilidades.\"",
+        "image": "../Imagenes/bts.png"
+    },
+    "localizarnos": {
+        "title": "✨ Localizarnos ✨",
+        "mapa": {
+            "iframeSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.7479996183318!2d-3.7037974842737146!3d40.41694076332312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2sPuerta%20del%20Sol%2C%20Madrid%2C%20Spain!5e0!3m2!1sen!2sus!4v1620160114569!5m2!1sen!2sus",
+            "address": "Av. José Pardo 610, 2do piso, Miraflores",
+            "hours": "Miércoles a domingo de 10:00 AM a 18:00 PM."
+        }
+    },
+    "terminosYCondiciones": {
+        "titulo": "TÉRMINOS Y CONDICIONES",
+        "secciones": [
+            {
+                "titulo1": "1. Aceptación de Términos",
+                "contenido1": "Al realizar una reserva en nuestras instalaciones, confirmas que has leído, comprendido y aceptado todos los términos y condiciones aquí establecidos. Si no estás de acuerdo con alguno de ellos, te pedimos que no continúes con la reserva."
+            },
+            {
+                "titulo2": "2. Reserva",
+                "contenido2": "Al completar la reserva, almacenaremos tus datos de contacto. 1 día antes de la fecha y hora acordadas, te enviaremos un mensaje de confirmación, si no recibimos tu respuesta hasta 2 horas antes de la hora programada, nos reservamos el derecho de cancelar el servicio y liberar la sala."
+            },
+            {
+                "titulo3": "3. Horarios y Tolerancia",
+                "contenido3": [
+                    "Se ofrece un período de tolerancia de 10 minutos después de la hora acordada para la entrada. Si no llegas dentro de ese tiempo, la sala será liberada y la reserva se considerará perdida.",
+                    "Te recomendamos llegar al menos 5 minutos antes de la hora programada para poder recibir las llaves y los controles de los parlantes de la sala de espejo."
+                ]
+            },
+            {
+                "titulo4": "4. Uso de las Instalaciones",
+                "contenido4": [
+                    "No se permite el consumo de comidas ni alcohol dentro de las salas. Cualquier incumplimiento de esta norma puede resultar en la cancelación de la reserva sin reembolso.",
+                    "El inquilino es responsable del uso adecuado de las instalaciones y debe notificar cualquier daño o inconveniente durante el uso de la sala."
+                ]
+            },
+            {
+                "titulo5": "5. Pago",
+                "contenido5": [
+                    "El pago total debe realizarse antes del ingreso a la sala y debe ser realizado por la persona que realizó la reserva. No se aceptarán pagos de terceros.",
+                    "No se realizarán reembolsos por inconvenientes que no involucren al local o servicio."
+                ]
+            },
+            {
+                "titulo6": "6. Comportamiento",
+                "contenido6": [
+                    "Se espera que todos los inquilinos y sus invitados mantengan un comportamiento respetuoso y profesional durante el uso de las instalaciones. Ademas, se hacen responsables de la perdida de sus objetos personales.",
+                    "Nos reservamos el derecho de cancelar la reserva sin reembolso si se presentan comportamientos inapropiados."
+                ]
+            },
+            {
+                "mensajeFinal": "✨¡Gracias por elegirnos! Esperamos que disfrutes de tu reserva✨"
+            }
+        ]
+    }
+}

@@ -1,0 +1,132 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17 oct. 2024, 05:22:40
+    Author     : HP
+*/
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+    --color-negro: #000000;
+    --color-blanco: #ffffff;
+    --color-morado-pastel: #dfd2f5;
+    --color-morado-tono2:#6a2be7;
+    --color-morado-tono3:#ac90e4;
+    --fuente-principal: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--fuente-principal);
+}
+
+/*login*/
+.login_section{
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    margin-top: 55px;
+    background-color: #6a2be7;
+    margin-left: 150px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+
+}
+.login_info{
+    width:50%;
+    padding: 100px;
+    background-color: var(--color-morado-tono2);
+
+}
+.log1{
+    color: #FFFFFF; 
+}
+.log1 i{  
+    font-size: 50px; 
+    position: relative;
+    padding-left: 120px;
+    text-align: center ;
+}
+.log1 h2{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.log1 hr{
+    border: 2px solid #FFFFFF;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.login_formulario{
+    width:50%;
+    padding: 60px;
+    text-align: center;
+    background-color: var(--color-blanco);
+}
+.login_formulario h2{
+    color: var(--color-morado-tono2);
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.login_datos{
+    display: flex;
+    flex-direction: column;
+}
+.login_datos label{
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.login_datos a{
+    padding-top: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color-morado-tono2);
+}
+
+.login_datos input{
+    width: 100%;
+    padding: 15px 15px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 0px 0px 0px 5px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.06);
+    border-color: var(--color-morado-tono2);
+    font-size: 14px;
+}
+.ingresarbtn{
+    margin-bottom: 20px;
+    background: var(--color-morado-tono2);
+    padding: 10px;
+    border-radius: 30px;
+    align-self: center;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+.ingresarbtn:hover{
+    background: var(--color-morado-tono3);
+}
+
+.regreso{
+    width: 100%;
+    position: initial;
+    display: flex;
+    justify-content: center;
+}
+.regreso .btnAtras{
+    font-size: 30px;
+    color: var(--color-blanco);
+}
+.regreso .btnAtras:hover{
+    color: var(--color-morado-pastel);
+}
+

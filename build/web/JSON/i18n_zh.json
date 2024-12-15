@@ -1,0 +1,149 @@
+{
+    "main": {
+        "title": "在我们的工作室中展现你的才华",
+        "description": "✨为你提供一个可以做自己并闪耀光芒的空间✨",
+        "button": "立即预约!"
+    },
+    "rooms": {
+        "salonGroup": {
+            "title": "我们的工作室",
+            "heading": "团体工作室",
+            "description": "适合1到6人之间的小团体或个人练习。配有全身镜、基本音响系统和专业照明设备。"
+        },
+        "salonCrew": {
+            "heading": "演艺工作室",
+            "description": "适合6到13人之间的团体或专业录音。配有先进音响系统、专业照明和录音摄像设备。"
+        },
+        "detailsButton": "查看工作室详情"
+    },
+    "schedule": {
+        "restTitle": "休息时间",
+        "restDays": "周一和周二",
+        "restDescription": "不对外服务",
+        "reservationTitle": "预约时间",
+        "attentionTitle": "开放时间",
+        "attentionDays": "周三到周日",
+        "attentionHours": "上午10:00 - 下午6:00"
+    },
+    "reasons": {
+        "title": "为什么选择我们的镜面工作室?",
+        "mirrorQuality": {
+            "title": "高质量镜面",
+            "description": "完美的视野，帮助你完善动作"
+        },
+        "soundQuality": {
+            "title": "专业音响",
+            "description": "卓越的音响效果，带给你完美的音乐体验"
+        },
+        "lighting": {
+            "title": "可调光照明",
+            "description": "为你的表演营造完美的氛围"
+        },
+        "space": {
+            "title": "宽敞的空间",
+            "description": "宽敞通风的工作室"
+        }
+    },
+    "imagenPrincipal": {
+        "title": "反射梦想"
+    },
+    "historia": {
+        "title": "✨ 我们的故事 ✨",
+        "inicios": {
+            "title": "我们的起源",
+            "description": "Whale Studio成立于2010年，由一群有远见的艺术家创建，诞生于创造挑战感知和激发想象力空间的激情。"
+        },
+        "evolucion": {
+            "title": "演变",
+            "description": "多年来，我们完善了反射艺术，结合传统技术与尖端科技，创造了真正独特的体验。"
+        },
+        "innovacion": {
+            "title": "不断创新",
+            "description": "我们对创新的承诺使我们开发出更多特别的镜子、高品质设计和为客户舒适性而创建的新环境。"
+        }
+    },
+    "valores": {
+        "title": "我们的价值观",
+        "creatividad": {
+            "icon": "🎨",
+            "title": "创造力",
+            "description": "我们不断寻找新的表达方式和创新设计。"
+        },
+        "colaboracion": {
+            "icon": "🤝",
+            "title": "合作",
+            "description": "我们与客户紧密合作，赋予他们独特愿景生命。"
+        },
+        "excelencia": {
+            "icon": "🌟",
+            "title": "卓越",
+            "description": "我们承诺为每一个项目提供最高质量。"
+        },
+        "sostenibilidad": {
+            "icon": "🌱",
+            "title": "可持续发展",
+            "description": "我们在流程和材料中寻求环保解决方案。"
+        }
+    },
+    "objetivo": {
+        "title": "✨ 我们的目标 ✨",
+        "text": {
+            "p1": "在Whale Studio，我们的目标是革命性地改变人们与他们所居住空间的互动方式。我们努力创造出不仅反映物理美感，而且激发内心反思和扩展意识的环境。",
+            "p2": "我们的承诺是提供创新的解决方案，不仅装饰空间，还激发想象力。"
+        },
+        "quote": "\"在每个反射中都有一种新的视角；在每面镜子中都有一个无限的可能性世界。\"",
+        "image": "../Imagenes/bts.png"
+    },
+    "localizarnos": {
+        "title": "✨ 定位我们 ✨",
+        "mapa": {
+            "iframeSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.7479996183318!2d-3.7037974842737146!3d40.41694076332312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2sPuerta%20del%20Sol%2C%20Madrid%2C%20Spain!5e0!3m2!1sen!2sus!4v1620160114569!5m2!1sen!2sus",
+            "address": "Av. José Pardo 610, 2楼，Miraflores",
+            "hours": "星期三到星期日，上午10:00至下午6:00。"
+        }
+    },
+    "terminosYCondiciones": {
+        "titulo": "条款与条件",
+        "secciones": [
+            {
+                "titulo1": "1. 接受条款",
+                "contenido1": "通过在我们的设施中进行预订，您确认已阅读、理解并接受此处列出的所有条款和条件。如果您不同意其中任何条款，请不要继续预订。"
+            },
+            {
+                "titulo2": "2. 预订",
+                "contenido2": "完成预订后，我们将存储您的联系方式。在约定的日期和时间前一天，我们会向您发送确认信息。如果我们在约定时间前2小时未收到您的回复，我们保留取消服务并释放房间的权利。"
+            },
+            {
+                "titulo3": "3. 时间和宽容",
+                "contenido3": [
+                    "进入时间之后提供10分钟的宽限期。如果您未在此时间内到达，房间将被释放，预订将被视为失效。",
+                    "我们建议您至少提前5分钟到达，以便接收钥匙和镜像房间的扬声器控制。"
+                ]
+            },
+            {
+                "titulo4": "4. 使用设施",
+                "contenido4": [
+                    "房间内禁止食物和酒精消费。任何违反此规定的行为可能会导致取消预订且不退款。",
+                    "租户负责正确使用设施，并且必须在使用房间期间通知任何损坏或不便。"
+                ]
+            },
+            {
+                "titulo5": "5. 付款",
+                "contenido5": [
+                    "在进入房间之前必须支付全额费用，并且必须由预订人支付。我们不接受第三方付款。",
+                    "对于不涉及场地或服务的问题，不会进行退款。"
+                ]
+            },
+            {
+                "titulo6": "6. 行为",
+                "contenido6": [
+                    "期望所有租户及其客人在使用设施期间保持尊重和专业的行为。此外，他们对个人物品的丢失负责。",
+                    "如果出现不当行为，我们保留取消预订且不退款的权利。"
+                ]
+            },
+            {
+                "mensajeFinal": "✨感谢您选择我们！希望您享受预订体验✨"
+            }
+        ]
+    }
+}
